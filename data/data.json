@@ -1,0 +1,57 @@
+{
+    "data": {
+        "name": "Tommy Vasquez",
+        "title": "Full Stack JavaScript",
+        "bio": "Passionate for technologie, learning at Treehouse",
+        "skills": ["JavaScript", "HTML", "CSS"],
+        "phone": "(+51) 999 222 687",
+        "email": "tommyvasquezr@gmail.com",
+        "projects": [
+            {
+                "id": 0,
+                "project_name": "project name",
+                "description": "description",
+                "technologies": ["JavaScript", "HTML", "CSS"],
+                "live_link": "link to the live version of the project",
+                "github_link": "link to the github repo",
+                "image_urls": ["file paths from the views folder"]
+            },
+            {
+                "id": 1,
+                "project_name": "project name",
+                "description": "description",
+                "technologies": ["JavaScript", "HTML", "CSS"],
+                "live_link": "link to the live version of the project",
+                "github_link": "link to the github repo",
+                "image_urls": ["file paths from the views folder"]
+            },
+            {
+                "id": 2,
+                "project_name": "project name",
+                "description": "description",
+                "technologies": ["JavaScript", "HTML", "CSS"],
+                "live_link": "link to the live version of the project",
+                "github_link": "link to the github repo",
+                "image_urls": ["file paths from the views folder"]
+            },
+            {
+                "id": 3,
+                "project_name": "project name",
+                "description": "description",
+                "technologies": ["JavaScript", "HTML", "CSS"],
+                "live_link": "link to the live version of the project",
+                "github_link": "link to the github repo",
+                "image_urls": ["file paths from the views folder"]
+            },
+            {
+                "id": 4,
+                "project_name": "project name",
+                "description": "description",
+                "technologies": ["JavaScript", "HTML", "CSS"],
+                "live_link": "link to the live version of the project",
+                "github_link": "link to the github repo",
+                "image_urls": ["file paths from the views folder"]
+            }
+        ]
+    }
+}
