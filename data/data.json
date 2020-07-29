@@ -2,10 +2,7 @@
     "data": {
         "name": "Tommy Vasquez",
         "title": "Full Stack JavaScript Developer",
-        "introduction": [
-            "Full Stack JavaScript Developer",
-            "My beginnings in programming was with powerscript for PowerBuilder development and PL / SQL with Oracle 11g."
-        ],
+        "introduction": "My beginnings in programming was with powerscript for PowerBuilder development and PL / SQL with Oracle 11g.",
         "bio": [
             "For more than 6 years I have dedicated myself more to the operational part of technological infrastructures.",
             "Providing assistance and support with great dedication and responsibility. In this journey, business continuity is always essential for me.",
@@ -24,7 +21,12 @@
                 "technologies": ["JavaScript", "HTML", "CSS"],
                 "live_link": "link to the live version of the project",
                 "github_link": "https://github.com/TommyAyrton/random-quote-generator",
-                "image_urls": ["file paths from the views folder"]
+                "image_urls": [
+                    "/images/RandomQuote550.png",
+                    "/images/RandomQuote1200x550.png",
+                    "/images/RQpage21200x550.png",
+                    "/images/RQpage31200x550.png"
+                ]
             },
             {
                 "id": 1,
@@ -33,7 +35,12 @@
                 "technologies": ["JavaScript", "HTML", "CSS"],
                 "live_link": "link to the live version of the project",
                 "github_link": "https://github.com/TommyAyrton/list-pagination-and-filtering",
-                "image_urls": ["file paths from the views folder"]
+                "image_urls": [
+                    "/images/ListPagination550.png",
+                    "/images/ListPagination1200x550.png",
+                    "/images/LPpage21200x550.png",
+                    "/images/LPpage31200x550.png"
+                ]
             },
             {
                 "id": 2,
@@ -42,7 +49,12 @@
                 "technologies": ["JavaScript", "HTML", "CSS"],
                 "live_link": "link to the live version of the project",
                 "github_link": "https://github.com/TommyAyrton/interactive-form",
-                "image_urls": ["file paths from the views folder"]
+                "image_urls": [
+                    "/images/InteractiveForm550.png",
+                    "images/InteractiveForm1200x550.png",
+                    "images/IFpage21200x550.png",
+                    "images/IFpage31200x550.png"
+                ]
             },
             {
                 "id": 3,
@@ -51,7 +63,12 @@
                 "technologies": ["JavaScript", "HTML", "CSS"],
                 "live_link": "link to the live version of the project",
                 "github_link": "https://github.com/TommyAyrton/oojs-game-phrase",
-                "image_urls": ["file paths from the views folder"]
+                "image_urls": [
+                    "/images/PhraseHunter550.png",
+                    "/images/PhraseHunter1200x550.png",
+                    "/images/PHpage21200x550.png",
+                    "/images/PHpage31200x550.png"
+                ]
             },
             {
                 "id": 4,
@@ -60,7 +77,12 @@
                 "technologies": ["JavaScript", "HTML", "CSS"],
                 "live_link": "link to the live version of the project",
                 "github_link": "https://github.com/TommyAyrton/public-api-request",
-                "image_urls": ["file paths from the views folder"]
+                "image_urls": [
+                    "/images/PublicApiRequest550.png",
+                    "/images/PublicApiRequest1200x550.png",
+                    "/images/PARpage21200x550.png",
+                    "/images/PARpage31200x550.png"
+                ]
             }
         ]
     }
