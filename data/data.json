@@ -1,9 +1,15 @@
 {
     "data": {
         "name": "Tommy Vasquez",
-        "title": "Full Stack JavaScript",
-        "bio": "Passionate for technologie, learning at Treehouse",
-        "skills": ["JavaScript", "HTML", "CSS"],
+        "title": "Full Stack JavaScript Developer",
+        "bio": [
+            "For more than 6 years I have dedicated myself more to the operational part of technological infrastructures.",
+            "Providing assistance and support with great dedication and responsibility. In this journey, business continuity is always essential for me.",
+            "As a personal challenge I set out on the path of web development.",
+            "And continue learning in the professional field as a personal.",
+            "You can contact me for web development projects and private consultations."
+        ],
+        "skills": ["JavaScript", "HTML", "CSS", "Node.js", "Express", "Pug"],
         "phone": "(+51) 999 222 687",
         "email": "tommyvasquezr@gmail.com",
         "projects": [

@@ -1,11 +1,22 @@
 const express = require('express');
 const router = express.Router();
+const { data } = require('../data/data.json');
+const { name } = data;
+const { title } = data;
+const { bio } = data;
+const { skills } = data;
+const { phone } = data;
+const { email } = data;
 
 /* GET about listing. */
 router.get('/', (req, res, next) => {
     res.render('about', {
-        Name: 'Tommy Vasquez',
-        Title: 'Full Stack Javascript - Techdegree Student at Treehouse',
+        Name: name,
+        Title: title,
+        Bio: bio,
+        Skills: skills,
+        Phone: phone,
+        Email: email,
     });
 });
 
