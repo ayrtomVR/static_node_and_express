@@ -2,6 +2,10 @@
     "data": {
         "name": "Tommy Vasquez",
         "title": "Full Stack JavaScript Developer",
+        "introduction": [
+            "Full Stack JavaScript Developer",
+            "My beginnings in programming was with powerscript for PowerBuilder development and PL / SQL with Oracle 11g."
+        ],
         "bio": [
             "For more than 6 years I have dedicated myself more to the operational part of technological infrastructures.",
             "Providing assistance and support with great dedication and responsibility. In this journey, business continuity is always essential for me.",
@@ -9,53 +13,53 @@
             "And continue learning in the professional field as a personal.",
             "You can contact me for web development projects and private consultations."
         ],
-        "skills": ["JavaScript", "HTML", "CSS", "Node.js", "Express", "Pug"],
+        "skills": ["JavaScript", "HTML", "CSS", "Node.js", "Express", "Pug", "SQL", "OOP", "Api"],
         "phone": "(+51) 999 222 687",
         "email": "tommyvasquezr@gmail.com",
         "projects": [
             {
                 "id": 0,
-                "project_name": "project name",
-                "description": "description",
+                "project_name": "Random Quote Generator",
+                "description": "Practice your knowledge of basic JavaScript syntax and data structures by building a Random Quote Generator, a program that displays a randomly selected quote each time the user clicks a button.",
                 "technologies": ["JavaScript", "HTML", "CSS"],
                 "live_link": "link to the live version of the project",
-                "github_link": "link to the github repo",
+                "github_link": "https://github.com/TommyAyrton/random-quote-generator",
                 "image_urls": ["file paths from the views folder"]
             },
             {
                 "id": 1,
-                "project_name": "project name",
-                "description": "description",
+                "project_name": "List Pagination and Filtering",
+                "description": "Displaying a long list of items on a web page, like a list of 200 movie titles or 400 products, can overwhelm a user with too much information at once. A common solution is to display a handful of items on one page and provide navigation to jump to a list of more items. In this project, you'll write JavaScript to divide a long list into a series of pages and improve the user experience of a web page.",
                 "technologies": ["JavaScript", "HTML", "CSS"],
                 "live_link": "link to the live version of the project",
-                "github_link": "link to the github repo",
+                "github_link": "https://github.com/TommyAyrton/list-pagination-and-filtering",
                 "image_urls": ["file paths from the views folder"]
             },
             {
                 "id": 2,
-                "project_name": "project name",
-                "description": "description",
+                "project_name": "Interactive Form",
+                "description": "Full Stack JavaScript developers create forms to collect information from users for nearly every website and application they build. For this project, you’ll use your skills to enhance a form so that it’s engaging, interactive, and easy to use.",
                 "technologies": ["JavaScript", "HTML", "CSS"],
                 "live_link": "link to the live version of the project",
-                "github_link": "link to the github repo",
+                "github_link": "https://github.com/TommyAyrton/interactive-form",
                 "image_urls": ["file paths from the views folder"]
             },
             {
                 "id": 3,
-                "project_name": "project name",
-                "description": "description",
+                "project_name": "OOP Game Show App",
+                "description": "Create a browser-based, word guessing game: Phrase Hunter. You’ll use JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase. A player tries to guess the phrase by selecting individual letters from an onscreen keyboard. Can they guess the phrase before they run out of attempts?",
                 "technologies": ["JavaScript", "HTML", "CSS"],
                 "live_link": "link to the live version of the project",
-                "github_link": "link to the github repo",
+                "github_link": "https://github.com/TommyAyrton/oojs-game-phrase",
                 "image_urls": ["file paths from the views folder"]
             },
             {
                 "id": 4,
-                "project_name": "project name",
-                "description": "description",
+                "project_name": "Public Api Requests",
+                "description": "Many sites — Twitter, Facebook, IMDB, and Wikipedia to name a few — offer a vast sea of data that you can access and display on your own web pages. Using JavaScript, you’ll create an employee directory by communicating with a third-party API (Application Programming Interface).",
                 "technologies": ["JavaScript", "HTML", "CSS"],
                 "live_link": "link to the live version of the project",
-                "github_link": "link to the github repo",
+                "github_link": "https://github.com/TommyAyrton/public-api-request",
                 "image_urls": ["file paths from the views folder"]
             }
         ]

@@ -3,6 +3,7 @@ const router = express.Router();
 const { data } = require('../data/data.json');
 const { name } = data;
 const { title } = data;
+const { introduction } = data;
 const { bio } = data;
 const { skills } = data;
 const { phone } = data;
@@ -13,7 +14,8 @@ router.get('/', (req, res, next) => {
     res.render('about', {
         Name: name,
         Title: title,
-        Bio: bio,
+        Intros: introduction,
+        Bios: bio,
         Skills: skills,
         Phone: phone,
         Email: email,
