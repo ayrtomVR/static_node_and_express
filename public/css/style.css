@@ -73,7 +73,7 @@ a:hover {
 }
 
 .portfolio-me p {
-    font-size: 14px;
+    font-size: 16px;
     color: #999;
 }
 
@@ -81,7 +81,7 @@ a:hover {
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 600;
     color: #555;
-    font-size: 13px;
+    font-size: 15px;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
@@ -89,6 +89,60 @@ a:hover {
 
 .portfolio-me a:hover {
     color: #999;
+}
+
+.portfolio-me img {
+    width: 200px;
+    height: 280px;
+    object-fit: cover;
+    box-shadow: 10px 15px 25px 0 rgba(0, 0, 0, 0.2);
+    display: block;
+    transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+    margin-top: -30px;
+}
+
+.portfolio-me:hover img {
+    box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-me .glow-wrap {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    margin-top: -30px;
+}
+
+.portfolio-me .glow {
+    display: block;
+    position: absolute;
+    width: 40%;
+    height: 200%;
+    background: rgba(255, 255, 255, 0.2);
+    top: 0;
+    filter: blur(5px);
+    transform: rotate(45deg) translate(-450%, 0);
+    transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.portfolio-me:hover .glow {
+    transform: rotate(45deg) translate(450%, 0);
+    transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.portfolio-me:hover img,
+.portfolio-me:hover .glow-wrap {
+    margin-top: 0;
+}
+
+.portfolio-me h3 {
+    position: absolute;
+    z-index: 1;
+    transform: translate(-7%, -100%);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    line-height: 1.2;
 }
 
 .portfolio-breadcrumb {
