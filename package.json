@@ -2,6 +2,7 @@
     "name": "static-node-and-express",
     "version": "0.0.1",
     "private": true,
+    "main": "app.js",
     "scripts": {
         "start": "node ./bin/www"
     },

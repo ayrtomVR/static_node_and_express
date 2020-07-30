@@ -40,7 +40,7 @@ We deploy a Node.js server, for web framework we use Express and html template w
 
 ## Styles CSS
 
--   Change the font family to Roboto.
+-   Change the font family to Roboto, effect hover to project images.
 
 ## Acknowledgments
 
