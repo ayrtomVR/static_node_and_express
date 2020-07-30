@@ -1,6 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const { data } = require('../data/data.json');
+const Name = data.name;
+const Introduction = data.introduction;
 const { projects } = data;
 
 /* GET project page. */
@@ -14,6 +16,8 @@ router.get('/:id', (req, res) => {
     const { image_urls } = projects[id];
 
     const templateData = {
+        Name,
+        Introduction,
         id,
         project_name,
         description,

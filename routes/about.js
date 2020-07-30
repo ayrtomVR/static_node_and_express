@@ -14,7 +14,7 @@ router.get('/', (req, res, next) => {
     res.render('about', {
         Name: name,
         Title: title,
-        Intros: introduction,
+        Introduction: introduction,
         Bios: bio,
         Skills: skills,
         Phone: phone,
