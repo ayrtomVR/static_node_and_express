@@ -19,15 +19,15 @@ We deploy a Node.js server, for web framework we use Express and html template w
 
 -   When the page loads, you can see a list of the projects developed and a brief introduction.
 
-    ![](/images/expressPrincipal.png)
+    ![](/mockups/expressPrincipal.png)
 
 -   There is a about page to.
 
-    ![](/images/expressAbout.png)
+    ![](/mockups/expressAbout.png)
 
 -   And you can select a project from the list.
 
-    ![](/images/expressProject.png)
+    ![](/mockups/expressProject.png)
 
 ## Built with
 
